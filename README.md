@@ -38,4 +38,4 @@ With this system, banks are expected to respond to customer complaints more quic
 | Description | Model | Vectorizer |
 | --- | --- | --- |
 | Model Undersampling Training | [model](/models/model_lstm_rus.h5) | [vectorizer](./models/vectorizer.pkl) |
-| Model Oversampling Training | [model](/models/model_lstm_ros.h5) | [vectorizer](./models/vectorizer_ros.pkl) |
+| Model Oversampling Training | [model](/models/model_lstm_ros.h5) | [vectorizer](./models/vectorizer.pkl) |

@@ -16,7 +16,7 @@ from tf_keras.metrics import Precision, Recall, AUC
 # Data Example
 @st.cache_data
 def load_data():
-    data = pd.read_csv('./models/complaints.csv', index_col=0)
+    data = pd.read_csv('./dataset/complaints.csv', index_col=0)
     data.columns = ['label','complaints']
     data.dropna(how="any", axis=0, inplace=True)
     data.drop_duplicates(subset='complaints', keep='first', inplace=True)
@@ -40,7 +40,7 @@ def load_data():
 @st.cache_data
 def get_predict(*input_text):
     # Model Prediction
-    model = load_model('./models/model_lstm_rus.h5')
+    model = load_model('./models/model_lstm_ros.h5')
 
     # Vectorizer Text
     from_disk = pickle.load(open('./models/vectorizer.pkl', "rb"))

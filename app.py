@@ -20,7 +20,7 @@ def intro():
 
 
     ### 🎯 Target
-    > The goal of using this NLP system is to **speed up the response time** of the customer service team and **improve the accuracy** in classifying complaints. The target is to create an NLP system with an **accuracy rate of at least 80%**, measured by metrics such as Accuracy, Precision, Recall, and F1-Score.
+    > The goal of using this NLP system is to **speed up the response time** of the customer service team and **improve the accuracy** in classifying complaints. The target is to create an NLP system with an **accuracy rate of at least 90%**, measured by metrics such as Accuracy, Precision, Recall, and F1-Score.
 
     With this system, banks are expected to respond to customer complaints more quickly and accurately, thereby increasing customer satisfaction and the efficiency of the customer service team. I hope this explanation helps you convey your project more clearly to the readers.
     ''')
