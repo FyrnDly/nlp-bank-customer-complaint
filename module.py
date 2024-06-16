@@ -66,11 +66,11 @@ def get_predict(*input_text):
         
     # Get percentage
     percentage = {
-        'Credit Card' : f'{score[0]:.2f}%',
-        'Credit Reporting' : f'{score[1]:.2f}%',
-        'Debt Collection' : f'{score[2]:.2f}%',
-        'Mortgages & Loans' : f'{score[3]:.2f}%',
-        'Retail Banking' : f'{score[4]:.2f}%'
+        'Credit Card' : f'{score[0]*100:.2f}%',
+        'Credit Reporting' : f'{score[1]*100:.2f}%',
+        'Debt Collection' : f'{score[2]*100:.2f}%',
+        'Mortgages & Loans' : f'{score[3]*100:.2f}%',
+        'Retail Banking' : f'{score[4]*100:.2f}%'
     }
     
     return result, percentage
